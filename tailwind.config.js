@@ -14,6 +14,8 @@ module.exports = {
         // or add them one by one and name whatever you want
         amber: colors.amber,
         emerald: colors.emerald,
+        yellow: colors.yellow,
+        'dark-red': '#991B1B',
       }
     }
   }
