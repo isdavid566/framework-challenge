@@ -9,7 +9,7 @@
 
   <!-- Font Awesome -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-  
+
   <!-- Font -->
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
 <body class="bg-sky-950 text-white">
   <!-- Header -->
   <header class="flex justify-between items-center px-6 py-4 bg-blue-950"
-        style="border-bottom: 10px solid rgba(30, 58, 138, 0.1); color: #fefce8">
+    style="border-bottom: 10px solid rgba(30, 58, 138, 0.1); color: #fefce8">
     <div class="text-3xl font-bold">
       <i class="fa-solid fa-wand-magic-sparkles"></i>
     </div>
@@ -27,10 +27,12 @@
         <li><a href="#" class="text-lg hover:text-yellow-400" style="font-family: 'Oxygen', sans-serif;">Shows</a></li>
         <li><a href="#" class="text-lg hover:text-yellow-400" style="font-family: 'Oxygen', sans-serif;">Work</a></li>
         <li><a href="#" class="text-lg hover:text-yellow-400" style="font-family: 'Oxygen', sans-serif;">Events</a></li>
-        <li><a href="#" class="text-lg hover:text-yellow-400" style="font-family: 'Oxygen', sans-serif;">Services</a></li>
+        <li><a href="#" class="text-lg hover:text-yellow-400" style="font-family: 'Oxygen', sans-serif;">Services</a>
+        </li>
       </ul>
     </nav>
-    <a href="#book" class="bg-yellow-400 text-sky-950 px-6 py-2 rounded-lg hover:bg-yellow-300" style="font-family: 'Oxygen', sans-serif;">Book now</a>
+    <a href="#book" class="bg-yellow-400 text-sky-950 px-6 py-2 rounded-lg hover:bg-yellow-300"
+      style="font-family: 'Oxygen', sans-serif;">Book now</a>
   </header>
 
   <!-- Hero -->
@@ -38,61 +40,71 @@
     style="background-image: url('https://s.yimg.com/ny/api/res/1.2/iEtpk8FmBeGlm23xPyGfew--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD04Mjg7Y2Y9d2VicA--/https://s.yimg.com/os/creatr-uploaded-images/2024-10/15d2dd80-96e6-11ef-bbbf-8cdb66db88e6');">
     <div class="absolute inset-0 bg-black opacity-50"></div>
 
-    <div class="relative z-10">
-      <h1 class="text-8xl font-extrabold text-tertiary mb-6 text-yellow-300" style="font-family: 'Playfair Display', serif">
+    <div class="relative z-10 flex flex-col justify-center items-center w-[240px] h-[250px] py-8 px-2"
+      style="margin: auto; width: 900px; height: 450px; display: flex; justify-content: center; border-radius: calc(infinity * 1px); background-color: #fef9c3">
+      <h1 class="text-8xl font-extrabold text-tertiary mb-6 text-sky-950"
+        style="font-family: 'Playfair Display', serif">
         <span class="block">Bring Magic</span>
         <span class="block">to <i>Life</i></span>
       </h1>
-      <p class="text-xl mb-8" 
-        style="font-family: 'Oxygen', sans-serif; color: #fefce8">Welcome to a world where imagination comes first.</p>
-      <a href="#explore"
-        style="background-color: #991B1B; color: black; border-color: #991B1B" 
-        class="border-2 px-8 py-3 text-xl rounded-lg hover:bg-red-800 mr-4">Explore</a>
-      <a href="#watch"
-        class="bg-transparent border-2 px-8 py-3 text-xl rounded-lg hover:bg-yellow-300; hover:text-white"
-        style="border-color: #fefce8; color: #fefce8">Watch</a>
+      <p class="text-xl mb-8" style="font-family: 'Oxygen', sans-serif; color: #991B1B">Welcome to a world where
+        imagination comes first.</p>
+      <!-- Button -->
+      <div class="flex flex-row" style="gap: 10px">
+        <a href="#explore" style="background-color: #fde047; border-color: #fde047"
+          class="border-2 px-8 py-3 text-xl rounded-lg color-sky-900 hover:bg-red-800" style="color: #082f49">Explore</a>
+        <a href="#watch"
+          class="bg-transparent border-2 px-8 py-3 text-xl rounded-lg hover:bg-sky-950 hover:text-white border-sky-950 text-sky-950"
+          style="border-color: #082f49; color: #082f49">Watch</a>
+
+      </div>
     </div>
   </section>
 
   <!-- About -->
-  <section class="py-24 bg-blue-950 text-center" 
+  <section class="py-24 bg-blue-950 text-center"
     style="border-top: 10px solid rgba(30, 58, 138, 0.1); border-bottom: 10px solid rgba(30, 58, 138, 0.1)">
-    <h2 class="text-4xl font-extrabold mb-9 bg-blue-950 text-yellow-300" style="font-family: 'Playfair Display', serif">Magic is waiting for <i>you</i></h2>
+    <h2 class="text-4xl font-extrabold mb-9 bg-blue-950 text-yellow-300" style="font-family: 'Playfair Display', serif">
+      Magic is waiting for <i>you</i></h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-12 px-6">
-      <div class="card bg-white text-sky-950 p-6 rounded-lg shadow-xl"
-        style="background-color: #fefce8">
-        <img src="https://media.istockphoto.com/id/537317101/photo/high-contrast-image-of-magician-making-card-tricks.jpg?s=612x612&w=0&k=20&c=zBQdUneEmk_N2dubaFRvvshTRn0iCLr5w8p-MjjwHgM=" alt="Close-up magic" class="w-full h-40 object-cover mb-4 rounded-lg">
-        <h3 class="text-2xl font-semibold mb-2 mb-2 text-blue-950" style="font-family: 'Playfair Display', serif">Close-up Magic</h3>
-        <p>Introduction to illusions that are close enough to touch your eyes.</p>
+      <div class="card bg-white text-sky-950 p-6 rounded-lg shadow-xl" style="background-color: #fefce8">
+        <img
+          src="https://media.istockphoto.com/id/537317101/photo/high-contrast-image-of-magician-making-card-tricks.jpg?s=612x612&w=0&k=20&c=zBQdUneEmk_N2dubaFRvvshTRn0iCLr5w8p-MjjwHgM="
+          alt="Close-up magic" class="w-full h-40 object-cover mb-4 rounded-lg">
+        <h3 class="text-2xl font-semibold mb-2 mb-2 text-blue-950" style="font-family: 'Playfair Display', serif; color: #991B1B">
+          Close-up Magic</h3>
+        <p>Illusions that are close enough to touch your eyes.</p>
         <a href="#" class="text-yellow-500 hover:underline">Learn more</a>
       </div>
-      <div class="card bg-white text-sky-950 p-6 rounded-lg shadow-xl"
-        style="background-color: #fefce8">
-        <img src="https://t4.ftcdn.net/jpg/11/68/42/79/360_F_1168427998_dxexOsCCH0EWAydh1qV6CpCsa7TQSZFs.jpg" alt="Stage performances"
-          class="w-full h-40 object-cover mb-4 rounded-lg">
-        <h3 class="text-2xl font-semibold mb-2 text-blue-950" style="font-family: 'Playfair Display', serif">Stage Performances</h3>
-        <p>Grand spectacles that will redefine your perceptions.</p>
+      <div class="card bg-white text-sky-950 p-6 rounded-lg shadow-xl" style="background-color: #fefce8">
+        <img src="https://t4.ftcdn.net/jpg/11/68/42/79/360_F_1168427998_dxexOsCCH0EWAydh1qV6CpCsa7TQSZFs.jpg"
+          alt="Stage performances" class="w-full h-40 object-cover mb-4 rounded-lg">
+        <h3 class="text-2xl font-semibold mb-2 text-blue-950" style="font-family: 'Playfair Display', serif; color: #991B1B">Stage
+          Performances</h3>
+        <p>Leave the audience full of whimsy and mystique.</p>
         <a href="#" class="text-yellow-500 hover:underline">Explore</a>
       </div>
-      <div class="card bg-white text-sky-950 p-6 rounded-lg shadow-xl"
-        style="background-color: #fefce8">
-        <img src="https://images.stockcake.com/public/3/4/7/3477ebbc-2817-4945-ab63-91c4adccb081_large/magical-performance-act-stockcake.jpg" alt="Mind reading" class="w-full h-40 object-cover mb-4 rounded-lg">
-        <h3 class="text-2xl font-semibold mb-2 mb-2 text-blue-950" style="font-family: 'Playfair Display', serif">Mind Reading</h3>
-        <p>Unlock secrets even before they are spoken.</p>
+      <div class="card bg-white text-sky-950 p-6 rounded-lg shadow-xl" style="background-color: #fefce8">
+        <img
+          src="https://images.stockcake.com/public/3/4/7/3477ebbc-2817-4945-ab63-91c4adccb081_large/magical-performance-act-stockcake.jpg"
+          alt="Mind reading" class="w-full h-40 object-cover mb-4 rounded-lg">
+        <h3 class="text-2xl font-semibold mb-2 mb-2 text-blue-950" style="font-family: 'Playfair Display', serif; color: #991B1B">Tricks</h3>
+        <p>Surprise and enrapture the audience with magic.</p>
         <a href="#" class="text-yellow-500 hover:underline">Learn more</a>
       </div>
     </div>
   </section>
 
   <!-- Contact -->
-<section class="text-sky-950 py-24"
+  <section class="text-sky-950 py-24"
     style="background-color: #fef9c3; border-top: 10px solid rgba(254, 249, 195, 0.10); border-bottom: 10px solid rgba(254, 249, 195, 0.10)">
     <div class="container mx-auto px-6">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
         <!-- Contact Section -->
         <div>
-          <h3 class="text-3xl font-semibold mb-6" style="font-family: 'Playfair Display', serif;">Let's create magic</h3>
-          <p class="text-lg mb-4">Ready to transform your event into an unforgettable experience?</p>
+          <h3 class="text-3xl font-semibold mb-6" style="font-family: 'Playfair Display', serif;">Let's create magic
+          </h3>
+          <p class="text-lg mb-4">Create an unforgettable experience!</p>
           <div class="space-y-4">
             <div class="flex items-center">
               <span class="mr-4">📧</span>
@@ -106,7 +118,7 @@
               <span class="mr-4">📍</span>
               <span class="text-lg">123 Illusion Lane, San Francisco, CA 94105</span>
             </div>
-            <a href="#find-us" class="text-yellow-500 hover:text-yellow-400">Find us &gt;</a>
+            <a href="#find-us" class="text-yellow-500 hover:underline">Find us &gt;</a>
           </div>
         </div>
 
@@ -120,36 +132,35 @@
   </section>
 
   <!-- Footer -->
-  <footer class="py-12"
-    style="background-color: #991B1B; color: #fefce8; border-top: 10px solid #991b1b10">
+  <footer class="py-12" style="background-color: #991B1B; color: #fefce8; border-top: 10px solid #991b1b10">
     <div class="container mx-auto px-6">
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-12 mb-12">
         <div>
-          <h4 class="font-semibold text-lg mb-4" style="font-family: 'Playfair Display', serif; color: #fde047">Magical Realms</h4>
+          <h4 class="font-semibold text-lg mb-4" style="font-family: 'Playfair Display', serif; color: #fde047">Magic</h4>
           <ul class="space-y-2">
             <li><a href="#" class="hover:text-yellow-500">Home</a></li>
-            <li><a href="#" class="hover:text-yellow-500">Spells</a></li>
             <li><a href="#" class="hover:text-yellow-500">Cards</a></li>
-            <li><a href="#" class="hover:text-yellow-500">Potions</a></li>
+            <li><a href="#" class="hover:text-yellow-500">Wands</a></li>
             <li><a href="#" class="hover:text-yellow-500">Illusions</a></li>
           </ul>
         </div>
 
         <div>
-          <h4 class="font-semibold text-lg mb-4" style="font-family: 'Playfair Display', serif; color: #fde047">Services</h4>
+          <h4 class="font-semibold text-lg mb-4" style="font-family: 'Playfair Display', serif; color: #fde047">Services
+          </h4>
           <ul class="space-y-2">
             <li><a href="#" class="hover:text-yellow-500">Performances</a></li>
-            <li><a href="#" class="hover:text-yellow-500">Classes</a></li>
-            <li><a href="#" class="hover:text-yellow-500">Membership</a></li>
+            <li><a href="#" class="hover:text-yellow-500">Surprises</a></li>
+            <li><a href="#" class="hover:text-yellow-500">Tricks</a></li>
           </ul>
         </div>
 
         <div>
-          <h4 class="font-semibold text-lg mb-4" style="font-family: 'Playfair Display', serif; color: #fde047">Connect</h4>
+          <h4 class="font-semibold text-lg mb-4" style="font-family: 'Playfair Display', serif; color: #fde047">Connect
+          </h4>
           <ul class="space-y-2">
             <li><a href="#" class="hover:text-yellow-500">Social Media</a></li>
             <li><a href="#" class="hover:text-yellow-500">Book Session</a></li>
-            <li><a href="#" class="hover:text-yellow-500">Support</a></li>
             <li><a href="#" class="hover:text-yellow-500">FAQ</a></li>
           </ul>
         </div>
@@ -157,8 +168,9 @@
 
       <!-- Subscribe -->
       <div class="flex flex-col items-center">
-        <h4 class="text-3xl font-semibold mb-5" style="font-family: 'Playfair Display', serif; color: #fde047">Subscribe</h4>
-        <p class="mb-6">Discover magical insights and mystical updates straight to your inbox.</p>
+        <h4 class="text-3xl font-semibold mb-5" style="font-family: 'Playfair Display', serif; color: #fde047">Subscribe
+        </h4>
+        <p class="mb-6">Discover magical insights and mystical updates.</p>
         <div class="flex space-x-4">
           <input type="email" placeholder="Enter your email" class="bg-white p-3 w-80 rounded-lg shadow-md text-black">
           <button class="bg-yellow-500 text-black px-6 py-3 rounded-lg shadow-md hover:bg-yellow-400">Join</button>
@@ -167,4 +179,5 @@
     </div>
   </footer>
 </body>
+
 </html>
